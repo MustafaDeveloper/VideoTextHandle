@@ -23,13 +23,13 @@ public class ParentClass {
 
    static {
         driver = Driver.getDriver();
-        wait = new WebDriverWait(driver, 30);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
     }
     public ParentClass(){
         driver = Driver.getDriver();
-        wait = new WebDriverWait(driver, 30);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
     }
