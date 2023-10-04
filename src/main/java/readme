@@ -1,0 +1,4 @@
+A topic, which user wants to search, is asked to the user and a topic is entered by the user.
+Then the youtube page is opened and the videos with the searched word are found.
+The first video is selected and its text is opened in a word file and saved there.
+The name of the Word file is given by the user
